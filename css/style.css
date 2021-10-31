@@ -25,6 +25,11 @@ body {
     font-family: "Open Sans", sans-serif, Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Typography */
 
@@ -47,6 +52,11 @@ p {
 
 
 /* Buttons */
+
+.icon {
+    width: 45px;
+    height: 45px;
+}
 
 .btn {
     align-items: center;
@@ -173,4 +183,48 @@ p {
 
 .input-group .input::placeholder {
     color: var(--color-border);
+}
+
+
+/* Navigation bar */
+
+.nav {
+    background-color: var(--color-primary);
+}
+
+.nav__menu {
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    /* display: flex; */
+    list-style: none;
+    padding-right: 2rem;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 1.8rem;
+    transition: all 0.2s ease;
+}
+
+.nav__item.active {
+    background-color: var(--color-secondary);
+}
+
+.nav__item .icon {
+    width: 40px;
+    height: 20px;
+}
+
+.nav__item:last-child {
+    /* flex-grow: 1; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.nav__item:hover {
+    background-color: var(--color-secondary);
 }
