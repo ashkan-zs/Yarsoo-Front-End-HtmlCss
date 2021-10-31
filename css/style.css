@@ -228,3 +228,37 @@ p {
 .nav__item:hover {
     background-color: var(--color-secondary);
 }
+
+
+/* Badges */
+
+.badge {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    padding: 1rem;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.123);
+}
+
+.badge--primary {
+    color: #fff;
+    background-color: var(--color-primary);
+}
+
+.badge--secondary {
+    background-color: var(--color-secondary-light);
+}
+
+.badge .icon {
+    width: 13px;
+    height: 13px;
+    margin: 0.3rem;
+}
+
+.badge__index {
+    color: var(--color-border);
+    font-size: 0.9rem;
+    padding-left: 0.3rem;
+}
