@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
 :root {
     --color-primary: #e75110;
+    --color-primary-light: rgba(231, 81, 16, 0.05);
     --color-secondary: #192430;
+    --color-secondary-light: rgba(25, 36, 48, 0.05);
     --color-success: #00b200;
     --color-border: #7c90a7;
     --color-line: #f0f0f0;
@@ -41,4 +43,101 @@ h2 {
 p {
     color: var(--color-secondary);
     font-size: 1.4rem;
+}
+
+
+/* Buttons */
+
+.btn {
+    align-items: center;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    padding: 13px 35px;
+    position: relative;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.btn--success {
+    background-color: var(--color-success);
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn--success:hover {
+    box-shadow: 2px 2px 12px -6px gray;
+    transform: scale(1.02);
+}
+
+.btn--primary {
+    background-color: var(--color-primary);
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn--primary:hover {
+    box-shadow: 2px 2px 12px -6px gray;
+    transform: scale(1.02);
+}
+
+.btn--primary:hover .btn__icon {
+    fill: var(--color-secondary);
+}
+
+.btn--outline {
+    border: 1px solid var(--color-border);
+    color: var(--color-border);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn--outline:hover {
+    background-color: var(--color-secondary-light);
+    box-shadow: 2px 2px 12px -6px gray;
+    transform: scale(1.02);
+}
+
+.btn--primary-light {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn--primary-light:hover {
+    background-color: var(--color-primary);
+    box-shadow: 2px 2px 12px -6px gray;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.btn--block {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+    display: block;
+    margin: 1rem 2rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn--block:hover {
+    background-color: var(--color-primary);
+    box-shadow: 2px 2px 12px -6px gray;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.btn-group.btn {
+    padding: 15px 15px 15px 5px;
+    width: 150px;
+}
+
+.btn__icon {
+    padding: 0 10px;
+}
+
+.btn .icon {
+    width: 42px;
+    height: 22px;
 }
