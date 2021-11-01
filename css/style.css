@@ -347,3 +347,47 @@ p {
 .circle-black {
   background-color: #191212;
 }
+
+/* Profile card */
+.profile {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  max-width: 300px;
+  border-top: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+.profile__header {
+  position: relative;
+}
+.profile__img {
+  width: 100%;
+  clip-path: circle(39% at 50% 50%);
+}
+.profile__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 2rem;
+  text-align: center;
+}
+.profile__desc {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+  margin-top: 2rem;
+}
+.profile .btn--block {
+  margin: 1rem 0;
+}
+.profile .badge {
+  position: absolute;
+}
+.profile__star {
+  top: 20px;
+  left: 20px;
+  z-index: 20;
+}
