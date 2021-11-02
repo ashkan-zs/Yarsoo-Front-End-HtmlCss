@@ -404,10 +404,12 @@ p {
   border-top: 1px solid #f0f0f0;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  /* max-width: 300px; */
   padding: 1rem 2rem;
 }
 .profile__header {
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 .profile__img {
@@ -666,6 +668,10 @@ p {
   position: absolute;
   width: 200px;
   bottom: -35px;
+}
+
+.profile-slider {
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
