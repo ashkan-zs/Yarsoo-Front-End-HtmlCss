@@ -763,4 +763,7 @@ p {
     padding: 1rem;
     font-size: 1rem;
   }
+  .special-offer__img {
+    width: 90px;
+  }
 }
