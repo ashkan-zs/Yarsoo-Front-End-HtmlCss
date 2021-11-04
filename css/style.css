@@ -457,6 +457,9 @@ p {
   padding: 2rem;
   margin: 1px;
 }
+.footer__icons .icon {
+  margin: 1.5rem;
+}
 .footer__contacts {
   border-bottom: 2px solid #000;
   border-top: 2px solid #000;
@@ -503,7 +506,7 @@ p {
 }
 .footer__links {
   display: flex;
-  margin: 2rem 2rem;
+  padding: 2rem 2rem;
 }
 .footer__title {
   color: #fff;
@@ -514,6 +517,9 @@ p {
 }
 .social-media .input-group {
   margin: 2rem 1rem;
+}
+.social-icons {
+  display: flex;
 }
 .social-icons .icon {
   margin: 2rem 1rem;
@@ -768,5 +774,11 @@ p {
   }
   .special-offer__img {
     width: 90px;
+  }
+  .footer__icons .icon-container {
+    margin: 0.5rem 1.5rem;
+  }
+  .input-group .input {
+    min-width: 0px;
   }
 }
