@@ -168,7 +168,7 @@ p {
 .input-group .icon {
   cursor: pointer;
   height: 20px;
-  width: 45px;
+  max-width: 45px;
 }
 
 .input-group .input {
@@ -186,7 +186,8 @@ p {
 }
 
 .input-group .btn {
-  padding: 1rem 2rem;
+  padding: 1rem;
+  margin: 0;
 }
 /* Navigation bar */
 
@@ -451,8 +452,10 @@ p {
 }
 .footer__icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2rem 0;
+  padding: 2rem;
+  margin: 1px;
 }
 .footer__contacts {
   border-bottom: 2px solid #000;
