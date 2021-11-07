@@ -8,7 +8,7 @@ $(document).ready(function () {
     speed: 500,
     pauseOnHover: true,
     loop: true,
-    auto: true,
+    // auto: true,
     slideEndAnimation: true,
     pause: 5000,
     responsive: [
@@ -41,7 +41,7 @@ $(document).ready(function () {
     easing: "cubic-bezier(0.25, 0, 0.25, 1)",
     speed: 500,
     pauseOnHover: true,
-    auto: true,
+    // auto: true,
     loop: true,
     slideEndAnimation: true,
     pause: 5000,
