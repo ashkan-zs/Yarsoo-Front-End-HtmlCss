@@ -753,6 +753,25 @@ p {
 }
 
 @media screen and (max-width: 550px) {
+  .nav-container {
+    position: relative;
+  }
+
+  .top-bar .logo {
+    margin: 0 5rem 0 1.3rem;
+  }
+
+  .nav {
+    position: static;
+  }
+  .nav .icon-burger {
+    top: 10%;
+  }
+
+  .nav {
+    height: 0;
+  }
+
   .footer__contacts {
     flex-direction: column;
   }
@@ -764,6 +783,7 @@ p {
   .footer__contacts .apps {
     padding-top: 2rem;
   }
+
   .mid-banner,
   .special-offer,
   .popular-prod {
@@ -772,14 +792,24 @@ p {
   .popular-prod__title {
     font-size: 1.5rem;
   }
+
   .special-offer .btn,
   .popular-prod .btn {
     margin: 0.2rem;
     padding: 1rem;
     font-size: 1rem;
   }
+
+  .special-offer {
+    flex-direction: column;
+  }
+  .special-offer__header {
+    flex-direction: row;
+    padding: 1rem;
+  }
   .special-offer__img {
     width: 90px;
+    padding: 1rem;
   }
   .footer__icons .icon-container {
     margin: 0.5rem 1.5rem;

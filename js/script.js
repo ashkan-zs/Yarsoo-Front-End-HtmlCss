@@ -10,7 +10,7 @@ $(document).ready(function () {
     loop: true,
     auto: true,
     slideEndAnimation: true,
-    pause: 2000,
+    pause: 5000,
     responsive: [
       {
         breakpoint: 1024,
@@ -27,7 +27,7 @@ $(document).ready(function () {
       {
         breakpoint: 600,
         settings: {
-          item: 1,
+          item: 2,
           slideMove: 1,
         },
       },
@@ -44,7 +44,7 @@ $(document).ready(function () {
     auto: true,
     loop: true,
     slideEndAnimation: true,
-    pause: 2000,
+    pause: 5000,
     responsive: [
       {
         breakpoint: 1024,
